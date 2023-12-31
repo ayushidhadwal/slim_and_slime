@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Slim & Smile",
+    "slug": "SlimAndSmile",
+    "version": "1.0.2",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "./android-manifest.plugin.js",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you change your profile picture, update group pictures.",
+          "microphonePermission": false,
+          "cameraPermission": false
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "3.0.8",
+      "supportsTablet": false,
+      "icon": "./assets/adaptive-icon.png",
+      "bundleIdentifier": "com.slimandsmile",
+      "infoPlist": {
+        "NSMotionUsageDescription": "App uses Motion Sensors to capture your daily steps counts."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.slimandsmilesteps",
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5263aadb-eb55-4a0e-bfe9-e6e1efd89fb4"
+      }
+    }
+  }
+}

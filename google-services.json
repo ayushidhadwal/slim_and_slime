@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701843904096",
+    "project_id": "slim-and-smile",
+    "storage_bucket": "slim-and-smile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701843904096:android:23f45a1e93fc46c3f65505",
+        "android_client_info": {
+          "package_name": "com.slimandsmilesteps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701843904096-i9533ep71dpo607di39ul0ja1gk44j2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDluIbfqv9_fJ4k_a1CNUs4Gp5pSrRxJAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701843904096-i9533ep71dpo607di39ul0ja1gk44j2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
